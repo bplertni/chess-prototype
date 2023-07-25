@@ -1,0 +1,77 @@
+h1 {
+  text-align: left;
+  margin: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+}
+
+table {
+  /* Disables the "padding" of cells, default table cells inherently have 2px of border-spacing */
+  border-spacing: 0px;
+}
+
+td,
+th {
+  border: 1px solid grey;
+  text-align: center;
+}
+
+th {
+  padding: 4px;
+}
+
+#example {
+  margin-top: 1rem;
+}
+
+#pgnTextArea {
+  width: 25rem;
+  height: 20rem;
+}
+
+#div100 {
+  height: 650px;
+  width: 1250px;
+  border: 1px solid #ccc;
+  overflow: auto;
+}
+
+#table-label {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#tbl100 {
+  width: 100%;
+  table-layout: fixed;
+}
+
+#tbl100 th,
+#tbl100 td {
+  height: 20px;
+  border: 1px solid grey;
+  font-size: 14px;
+}
+
+.supsub {
+  display: inline-block;
+}
+
+.supsub sup,
+.supsub sub {
+  position: relative;
+  display: block;
+  font-size: 10px;
+  line-height: 1.2;
+}
+
+thead {
+  background-color: lightgrey;
+}
+
+.supsub sub {
+  top: -1px;
+}
+
+#FEN {
+  text-align: left;
+}
